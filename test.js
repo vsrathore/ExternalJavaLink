@@ -1,1 +1,3 @@
-function findChar(tmpStr){ return typeof(tmpStr) }
+function findChar(tmpStr, fndChr){
+    return tmpStr.includes(fndChr)
+}
